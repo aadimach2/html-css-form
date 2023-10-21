@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="tro.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="tro.css">
+    
+</head>
+
+<body>
+   
+    <form action="" method="POST">
+        <h1>CONTACT US</h1>
+       <div>Name: <input placeholder="enter your name" required type="text" name:"username" id="name"></div><br>
+       <div>Email: <input placeholder="enter your email"required type="email" name:"useremail" id="email"></div><br>
+       
+
+     <div>  Message:<textarea placeholder="enter your message" required name="usermessage" id="message" cols="50" rows="10"></textarea></div><br>
+     <div>Number:<input placeholder="enter your number" required type="number" name="usernumber"id="number"></div><br>
+     
+     <div>Gender:<select required name="usergender" id="gender"><br>
+        <option value="">choose one</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+       </select>
+     </div><br>
+     <div class="hat">Frontend:<input required type="checkbox" name="skills  " id="Frontend">
+     Backend: <input required type="checkbox"name="skills"id="Backend"></div><br>
+     <fieldset>
+        <legend>Mode of payment</legend>
+     Cash:<input required type="radio" name="payment" id="cash">
+     online:<input required type="radio"name="payment"id="online">
+     </fieldset><br>
+     <div>Password:<input required type="password"name="userpassword"id="password"></div><br>
+        <input required type="submit"value="Submit">
+
+
+
+
+
+    </form>
+   
+     
+</body>
+</html>
